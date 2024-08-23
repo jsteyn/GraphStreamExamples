@@ -1,0 +1,21 @@
+graph {
+    padding: 60px;
+}
+
+edge {
+    shape: line;
+    fill-mode: dyn-plain;
+    fill-color: #222, #555, green, yellow;
+    arrow-size: 3px, 2px;
+}
+
+node {
+    size: 1px;
+    fill-color: #777;
+    text-mode: hidden;
+    z-index: 0;
+}
+
+edge.tollway { size: 2px; stroke-color: red; stroke-width: 1px; stroke-mode: plain; }
+edge.tunnel { stroke-color: blue; stroke-width: 1px; stroke-mode: plain; }
+edge.bridge { stroke-color: orange; stroke-width: 1px; stroke-mode: plain; }
